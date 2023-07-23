@@ -1,0 +1,10 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.row::after{
+    content: "chicken";
+    clear: both;
+    display: table;
+}
